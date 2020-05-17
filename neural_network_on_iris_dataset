@@ -21,7 +21,7 @@ plt.ylabel('Petal Width')
 plt.show()
 
 def initialize_parameters(n_x, n_h, n_y):
-    
+   
     np.random.seed(2) # we set up a seed so that our output matches ours although the initialization is random.
     
     W1 = np.random.randn(n_h, n_x) * 0.01 #weight matrix of shape (n_h, n_x)
