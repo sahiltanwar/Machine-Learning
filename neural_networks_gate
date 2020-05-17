@@ -73,6 +73,5 @@ def template(dataset, name, data):
             print(i)
 
 gates = [_and, _or, _nand, _nor, _not]
-
 for i in gates:
     template(dataset, *i)
